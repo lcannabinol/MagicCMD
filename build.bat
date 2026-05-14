@@ -1,0 +1,6 @@
+@echo off
+echo Installing dependencies...
+pip install pyinstaller requests torch open-interpreter
+echo Building with PyInstaller...
+pyinstaller run.spec
+echo Build complete. Check dist\MagickCMD.exe
